@@ -17,7 +17,6 @@ const RelatedVideosInWatch = () => {
   const [loader, setLoader]= useState(false);
 
     const fetchRelatedVideos = async () => {
-      // const apiKey = "AIzaSyBsxlxUs2Tw5XirtEvL9DbVXABhPSD2OVU";
       const url = `https://www.googleapis.com/youtube/v3/search?q=${inputValue}&key=${process.env.REACT_APP_API_KEY}&part=snippet&maxResults=15&type=video`;
 
       if (loader)

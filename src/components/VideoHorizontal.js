@@ -10,7 +10,6 @@ const VideoHorizontal = ({ videoId, title }) => {
 
   useEffect(() => {
     const fetchRelatedVideos = async () => {
-      // const apiKey = "AIzaSyBsxlxUs2Tw5XirtEvL9DbVXABhPSD2OVU";
       const url = `https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=5&q=${title}&key=${process.env.REACT_APP_API_KEY}`;
 
       try {

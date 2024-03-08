@@ -12,7 +12,6 @@ import PlayVideoComp from './PlayVideoComp'
 
 function RecommendedVideo() {
 
-  // const apiKey = 'AIzaSyCkGLM3t3MbBEfl0HZSOqUwaBQbdy8wqzw';
   // const video_http="https://www.googleapis.com/youtube/v3/videos?";
 
   // const fetchData= useCallback(async () =>{
@@ -50,7 +49,6 @@ function RecommendedVideo() {
     setLoader(true);
 
     try {
-      // const apiKey = "AIzaSyBsxlxUs2Tw5XirtEvL9DbVXABhPSD2OVU";
 
       const response= await axios.get(
         `https://www.googleapis.com/youtube/v3/videos?key=${process.env.REACT_APP_API_KEY}&part=snippet,contentDetails&chart=mostPopular&maxResults=10&regionCode=IN&pageToken=${pageToken}`

@@ -18,8 +18,6 @@ function WatchComp() {
   useEffect(() => {
     const fetchVideoDetails = async () => {
       try {
-        // Replace 'YOUR_API_KEY' with your actual YouTube Data API key
-        // const apiKey = "AIzaSyBsxlxUs2Tw5XirtEvL9DbVXABhPSD2OVU";
         const response = await fetch(
           `https://www.googleapis.com/youtube/v3/videos?part=snippet,statistics&id=${id}&key=${process.env.REACT_APP_API_KEY}`
         );
