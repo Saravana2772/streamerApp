@@ -1,0 +1,16 @@
+.SearchPage{
+    /* margin-left: 220px;
+    background-color: rgb(245, 242, 242);
+    padding: 20px 20px;
+    border-radius: 15px;
+    margin: 5px 5px;
+    border: 2px solid red; */
+
+    margin-left: 180px;
+    margin-right: 20px;;
+    width: 100%;
+    padding: 30px 20px;
+    background-color: rgb(252, 250, 250);
+    padding-bottom: 0;
+    /* border: 2pxs solid red; */
+}

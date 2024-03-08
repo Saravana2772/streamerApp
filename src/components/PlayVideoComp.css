@@ -1,0 +1,16 @@
+.flex-playvideocomp{
+    display: flex;
+    gap: 20px;
+    flex-flow: row wrap;
+}
+
+.flex-one{
+    flex: 0 0  220px; 
+    left: 0;
+    /* border: 2px ssolid red; */
+}
+
+.flex-two{
+    flex: 0 0 1100px; 
+    /* border: 2px solid blue; */
+}

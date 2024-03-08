@@ -1,0 +1,33 @@
+.RecommendedVideo{
+    flex: 0.85;
+    margin-right: 5px;
+    padding: 30px 30px;
+    background-color: rgb(252, 250, 250);
+    padding-bottom: 0;
+    /* border: 2px solid red; */
+}
+
+.RecommendedVideo > h2{
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+
+.RecommendedVideo-Allvideo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* margin-right: 20px; */
+    /* border: 2px solid red; */
+    /* justify-content:right; */
+}
+
+
+@media only screen and (max-width:780){
+    .RecommendedVideo{
+        max-width: 100%;
+        margin-left: 0px;
+        justify-content: flex-start;
+        margin-left: 0;
+        z-index: 100;
+    }
+}

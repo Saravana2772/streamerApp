@@ -1,0 +1,84 @@
+.Video-MetaData{
+    flex: 0.4;
+    width: 600px;
+    /* margin-right: 20px; */
+    /* border: 2px solid red; */
+    padding: 20px 20px;
+    padding-bottom: 0;
+}
+
+.channelOwner-profile {
+    height:50px;
+    width:50px;
+    border-radius: 25px;
+    /* border: 2px solid red; */
+}
+
+.video-MetaData-Top{
+    /* border: 2px solid red; */
+    margin-bottom: 4px;
+    position: relative;
+    padding: 5px;
+    width: 370px;
+    left: 0px;
+}
+.video-title{
+    /* border: 2px solid red; */
+    width: 380px;
+    margin-top: 1px;
+    text-wrap: wrap;
+    padding-bottom: 5px;
+}
+
+.video-title-details{
+    line-height: 6px;
+}
+
+.MetaData-btn{
+    display: flex;
+    position: absolute;
+    /* border: 2px solid red; */
+    width: 180px;
+    left: 400px;   
+    top:3px; 
+}
+
+.channel-info{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.MetaData-channel{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+    flex-direction: column;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+#Follow-btn{
+    margin-left: 300px;
+}
+
+.react-btn:hover{
+    border: 2px solid blue;
+    border-radius: 15px;
+    background-color: blue !important;
+    color: white;
+}
+
+.MetaData-Description{
+    margin-top: 10px;
+    left:0px;
+}
+
+.descript-showmore{
+    padding: 10px;
+    border-radius: 10px;
+    white-space: pre-line;
+    height: 100%;
+    border: 2px solid grey;
+    background-color: aliceblue;
+}

@@ -1,0 +1,145 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px;
+    margin-left: 0%;
+    /* border: 2px solid red; */
+    height: 50px;
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    z-index: 100;
+
+}
+
+.header-left{
+    margin-left: 0px;
+    /* position: absolute; */
+    float: left;
+    /* border: 2px solid red; */
+    display: flex;
+    flex: 0 2 20%;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+h3{
+    margin-left: 10px;
+}
+
+
+.header-center{
+    float: left;
+    display: flex;
+    flex: 10 4 40%;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* border: 2px solid red; */
+}
+
+.header-input {
+    flex: 0.95;
+    border: none;
+    outline: none;
+    height: 28px;
+    font-weight: 26px;
+    margin-right: 20px;
+}
+
+.search-tab{
+    padding-left: 10px;
+    display: flex;
+    flex: 4 2 30%;
+    height: 40px;
+    position: relative;
+    align-items: center;
+    /* border: 2px solid red; */
+    border: 2px solid rgb(230, 226, 226);
+    border-radius: 25px;
+}
+
+.header-search-icon{
+    height: 40px;
+    width: 50px;
+    position: absolute;
+    top:0px;
+    right:0px;
+    /* cursor: pointer; */
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: rgb(230, 226, 226);
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+    /* border: 2px solid red; */
+    /* height: 15px; */
+    /* padding: 3px;
+    flex: 0.3;
+    border-left: 2px solid rgb(185, 180, 180); */
+
+    /* border: 2px solid brown; */
+    /* flex: 0.3 */
+}
+
+.header-mic{
+    margin-left: 10px;
+    padding: 10px;
+    background-color: lightgrey;
+    border-radius: 25px;
+}
+
+.header-right{
+    float: left;
+    display: flex;
+    flex: 2 0 20%;
+    align-items: center;
+    justify-content: end;
+    /* border: 2px solid red; */
+}
+
+.header-right-child{
+    margin-right: 5px;
+    border-radius: 25px;
+    align-self: center;
+    padding: 5px;
+}
+
+.right-random{
+    flex: 2 3 10%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header-right-child:hover{
+    background-color: lightgrey;
+}
+
+.search-tab > button{
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right:50px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.Cancel-button:hover{
+    background-color: rgb(240, 240, 240);
+}
+
+@media only screen and (max-width: 630px){
+    .header-right{
+        display: none;
+    }
+}

@@ -1,0 +1,83 @@
+.VideoCard-whole{
+    width: 300px;
+    height: 300px;
+    max-height: 250px;
+    margin: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.thumbnail{
+    border-radius: 15px; 
+    position: relative;
+    flex: 0.4;
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.videoCard-info{
+    display: flex;
+    margin-top: 0px;
+    /* height: 100px; */
+    flex: 0.4;
+    /* border: 2px solid blue; */
+    padding-right: 30px;
+}
+
+.videoCard-text{
+    margin-left: 10px;
+    /* border: 2px solid royalblue; */
+}
+
+.videoCard-text > h4{
+    font-size: 15px;
+    font-style: bold;
+    margin-top: 0;
+    margin-bottom: 1px;
+}
+
+.videoCard-text > p{
+    font-size: 13px;
+    /* border: 2px solid salmon; */
+    color: grey;
+}
+
+.Avatar{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.duration>span{
+    text-decoration: none;
+    position: absolute;
+    background-color: black;
+    color: white;
+    z-index: 99;
+}
+/* 
+@media only screen and (max-width: 720px) {
+    .VideoCard-whole{
+        max-height: 700px;
+        width: 85%;
+        height: auto;
+    }
+
+    .thumbnail{
+        max-height: 200px;
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 1180px){
+    .thumbnail{
+        height: 250px;
+    }
+}
+
+@media only screen and (max-width: 1510px){}
+
+@media only screen and (min-width: 1510px){} */

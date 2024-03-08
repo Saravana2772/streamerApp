@@ -1,0 +1,41 @@
+.Horizontal-Video{
+    /* border: 2px solid red; */
+    margin-bottom: 15px;
+}
+
+.recommend-img{
+    padding-left: 10px;
+    margin-top: 5px;
+    left: 0px;
+    max-height: 80px;
+    width: 150px;
+}
+
+.recommend-card{
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    /* border: 2px solid grey; */
+    border-radius: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background: rgb(245, 244, 244);
+}
+
+.recommend-title{    
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 0px;
+    white-space: normal; 
+    max-height: 2.6em;
+    line-height: 1em;
+    font-size: 1em;
+
+    padding: 6px;
+    padding-top: 15px;
+}
+
+
+.items > h3{
+    color: black;
+}

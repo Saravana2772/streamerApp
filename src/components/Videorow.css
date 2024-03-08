@@ -1,0 +1,22 @@
+.Videorow{
+    display: flex;
+    margin-top: 10px;;
+    margin-bottom: 30px;
+    max-width: 700px;
+}
+
+.Videorow > img{
+    object-fit: contain;
+    width: 220px;
+    height: 120px;
+}
+
+.video-text{
+    margin-left: 15px;
+}
+
+.video-text > p{
+    font-size: small;
+    margin-bottom: 10px;
+    color: gray;
+}
